@@ -184,3 +184,10 @@ footer {
 
 .menu > li:first-child a { margin-left: 0; }
 .menu > li:last-child a { margin-right: 0; }
+
+/*hidden on wide screen by default*/
+.slicknav_menu{
+	display: none;
+	clear: left;
+	background-color: var(--accent-color);
+}
