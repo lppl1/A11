@@ -206,7 +206,26 @@ footer {
 	}
 }
 
-/*media queries*/
+/*media queries for tablets + phones*/
 @media only screen and (max-width: 767px){
-	
+	body {
+		width: 100%;
+		border: none;
+	}
+	.navbar {
+		display: none;
+	}
+	.slicknav_menu {
+		display: block;
+	}
+	main {
+		flex-direction: column;
+	}
+	section {
+		order: 1;
+		padding-left: 0;
+	}
+	aside {
+		
+	}
 }
