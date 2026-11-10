@@ -226,6 +226,16 @@ footer {
 		padding-left: 0;
 	}
 	aside {
-		
+		order: 2;
+		padding-right: 0;
+		border-top: 2px solid var(--accent-color);
+		margin-top: 1em;
+	}
+}
+
+@media only screen and (max-width: 479px){
+	header {
+		& h2 {font-size: 140%;}
+		& h3 {font-size: 110%;}
 	}
 }
