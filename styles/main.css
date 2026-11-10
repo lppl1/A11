@@ -191,3 +191,12 @@ footer {
 	clear: left;
 	background-color: var(--accent-color);
 }
+
+.slicknav_nav{
+	margin-left: 0;
+	& .dropdown {
+		position: static;
+		margin-left: 1em;
+	}
+	
+}
