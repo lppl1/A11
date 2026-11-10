@@ -198,5 +198,10 @@ footer {
 		position: static;
 		margin-left: 1em;
 	}
-	
+	& small {display: none;}
+	& a:hover, & a:focus, & .slicknav_row:hover{
+		background-color: var(--mid_menu);
+		color: var(--dark_menu);
+		border-radius: 0;
+	}
 }
